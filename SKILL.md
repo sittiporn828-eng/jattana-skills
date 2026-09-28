@@ -1,4 +1,4 @@
----
+﻿---
 name: jattana-teamai
 description: Complete JATTANA TeamAI knowledge base, engineering methodology (Ponytail), platform rules, and 85 specialist skills catalog for full-stack engineering, AI automation, UI/UX, and ops.
 ---
@@ -31,7 +31,18 @@ This master skill consolidates the entire JATTANA GROUP engineering standards, m
 4. Runnable checks: Leave one runnable check (an assert or minimal test) for non-trivial logic.
 5. Output format: Shortest diff, shortest explanation.
 
-## 3. TeamAI 85-Skill Catalog & Routing Directory
+## 3. Standing User Directives & Rules (คุณนัท)
+
+- **Language & Style (Caveman + Ponytail):** ตอบสั้น กระชับ ตรงประเด็น ไทยปนอังกฤษ ไม่อารัมภบท ไม่ทวนคำถาม ไม่พูดซ้ำ
+- **Zero Hallucination:** ห้ามแต่งผลลัพธ์หรือข้อมูลขึ้นมาเองเด็ดขาด ถ้าทำไม่ได้หรือไม่แน่ใจให้บอกตรงๆ พึ่งพาหลักฐานจริงเสมอ
+- **Security & Scope:**
+  - MT5 และการเทรด: อนุญาตเฉพาะบัญชี Demo (XAUUSDm) เท่านั้น ห้ามสั่งการพอร์ตจริงเด็ดขาด
+  - ห้ามบันทึกหรือแสดง Password, API Key หรือ Secrets ในข้อความหรือคอมมิต
+- **Engineering Quality:** งานโค้ด/ตรรกะ ต้องมี runnable check เสมอ และแก้ที่ Root Cause ไม่แก้แค่ปลายเหตุ
+
+---
+
+## 4. TeamAI 85-Skill Catalog & Routing Directory
 
 ### analytics
 - Description: "Set up, improve, or audit analytics tracking: GA4, GTM, UTM."
@@ -372,4 +383,5 @@ This master skill consolidates the entire JATTANA GROUP engineering standards, m
 ### xlsx
 - Description: Create, read, edit Excel .xlsx workbooks and CSVs.
 - File Path: skills/xlsx/SKILL.md
+
 
